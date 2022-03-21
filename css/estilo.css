@@ -1,0 +1,76 @@
+/*:root{
+    --primary-color: lightcoral;
+    --secondary-color: dimgrey;
+    --tertiary-color: gainsboro;
+}*/
+body {
+    background: linear-gradient(to left,yellow , red);
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+}/*geral do (body) degradê de fundo*/
+
+#container {
+    height: 525px;
+    width: 360px;
+    margin: 100px auto;
+    background: beige;
+    box-shadow: 7px 7px 7px black;
+    border-radius: 20px;
+}/*centralizar elemento*/
+
+.tit {
+   background: linear-gradient(to right, yellow, red);
+   padding: 20px;
+   text-transform: uppercase;
+   font-size: 18px;
+   border-top-left-radius: 20px;
+   border-top-right-radius: 20px;
+   font-weight: normal;
+   text-align: center;
+}/*title(título)*/
+
+.T-F {
+    padding-left: 20px;
+    padding-right: 20px;
+}/*T-F(tipo de formulário)*/
+
+.FInput {
+    background: white;
+    width: 40px;
+    padding: 5px 5px 8px 8px;
+}/*input do formulário*/
+
+.FInput:focus {
+    border: 4px solid red;
+}/*borda vermelha ao ser selecionado*/
+
+.FSel{
+    width: 100px;
+    padding: 5px;
+    font-size: 12px;
+}/*select do formulário(form select)*/
+
+.FSB{
+    text-transform: uppercase;
+    font-weight: bold;
+    display: block;
+    margin: 30px auto;
+    background: yellow;
+    border-radius: 10px;
+    width: 100px;
+    height: 50px;
+    font-size: 15px;
+}/*formulário submit(form submit-button) botão*/
+
+.FSB:hover {
+    background: red;
+    color: yellow;
+    border: 3px solid yellow;
+    border-radius: 100%;
+}/*Efeito botão ao passar mouse(buttn effect with mouse)*/
+
+#resultadoFinal {
+    font-size: 20px;
+    margin-top: 5px;
+    text-align: center;
+}/*resultado(formatação) abaixo do botão calcular*/
